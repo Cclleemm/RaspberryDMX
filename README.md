@@ -40,11 +40,7 @@ Before         				| After
 Second step
 -------------
 Now you need ton connect the MAX485 board to the GPIOs of the Raspberry Pi.
-
 Follow the connection picture. 
-
-
-Notice that the RO pin is optional and t
 
 ![PreviewImage](https://raw.github.com/Cclleemm/RaspberryDMX/master/Tutorial/board.png?raw=true) 
 
