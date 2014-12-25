@@ -10,7 +10,7 @@ This script will help you to create a way to control DMX device through a web HT
 What you need ?
 -------------
 
-Item         				| Picture
+Item         				| Value
 ----------------------------| ---
 Raspberry Pi 				| ![PreviewImage](https://raw.github.com/Cclleemm/RaspberryDMX/master/Tutorial/raspberry.png?raw=true) 
 MAX485 RS-485 Module   	 	| ![PreviewImage](https://raw.github.com/Cclleemm/RaspberryDMX/master/Tutorial/max485.png?raw=true) 
@@ -40,3 +40,15 @@ Before         				| After
 Second step
 -------------
 Now you need ton connect the MAX485 board to the GPIOs of the Raspberry Pi.
+
+Follow the connection picture. 
+
+
+Notice that the RO pin is optional and t
+
+![PreviewImage](https://raw.github.com/Cclleemm/RaspberryDMX/master/Tutorial/board.png?raw=true) 
+
+> **Note:**
+
+> - The RO pin is optional.
+> - The DE pin have to be connected on the GPIO21 or GPIO27 (it depends of the RBPi version).
