@@ -14,3 +14,14 @@ Raspberry Pi 				| ![PreviewImage](https://raw.github.com/Cclleemm/RaspberryDMX/
 MAX485 RS-485 Module   	 	| ![PreviewImage](https://raw.github.com/Cclleemm/RaspberryDMX/master/Tutorial/max485.png?raw=true) 
 Cable   		 			  | ![PreviewImage](https://raw.github.com/Cclleemm/RaspberryDMX/master/Tutorial/cable.png?raw=true) 
 Some 0.1 pin header cables	| ![PreviewImage](https://raw.github.com/Cclleemm/RaspberryDMX/master/Tutorial/pins.png?raw=true) 
+
+First step
+-------------
+the Raspberry Pi (rpi) is not 5volt tolerant (it does not accept 5v inputs) but the module has pull-up resistors on the I/O lines pulling the logic signals up to 5v. These resistors need to be removed otherwise damage may result to the rpi, things may get hot, smell bad at best or fail completely at worst.
+So take your soldering iron to remove resistances. **If you don't, it can damage your Raspberry Pi**.
+
+
+
+Before         				| After
+----------------------------| ---
+![PreviewImage](https://raw.github.com/Cclleemm/RaspberryDMX/master/Tutorial/max485_2.png?raw=true)  				| ![PreviewImage](https://raw.github.com/Cclleemm/RaspberryDMX/master/Tutorial/max485_3.png?raw=true) 
