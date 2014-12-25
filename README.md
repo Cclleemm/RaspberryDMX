@@ -48,3 +48,13 @@ Follow the connection picture.
 
 > - The RO pin is optional.
 > - The DE pin have to be connected on the GPIO21 or GPIO27 (it depends of the RBPi version).
+
+
+Third step
+-------------
+Wire the MAX485 board to the DMX plug (XLR 3pins) or socket.
+Wire         				| Result
+----------------------------| ---
+**B** is positive (red) and goes to **pin 3** on the socket. **A** is negative (black) and goes to **pin 2**.   				| ![PreviewImage](https://raw.github.com/Cclleemm/RaspberryDMX/master/Tutorial/plugconnected.png?raw=true) 
+
+Image is socket viewed from back. 
