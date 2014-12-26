@@ -60,3 +60,13 @@ Wire         				| Result
 
 
 Image is socket viewed from back. 
+
+
+Fourth step
+-------------
+Install softwares
+
+If you overclock the Pi this code will produce some bad packets. it is better to have a raspberry pi non overcloked. The default non overclocked config.txt with the addition of the line disable_pvt=1 added to it seems stable. 
+We will first edit ``/boot/config.txt`` to add ``disable_pvt=1`` option.
+`` sudo nano /boot/config.txt ``
+Then add or uncomment ``disable_pvt=1`` and save it.
