@@ -1,5 +1,9 @@
 RaspberryDMX
 ===================
+
+WORK IN PROGRESS, IT DOESN'T WORK YET
+===================
+
 Raspberry Pi HTTP to GPIO DMX
 
 This is an experimental tool to create a cheap DMX controller with your Raspberry Pi. It only cost the price of your raspberry pi and the MAX485 RS-485 Module (around 2$).
@@ -50,6 +54,9 @@ Follow the connection picture.
 > - The DE pin have to be connected on the GPIO21 or GPIO27 (it depends of the RBPi version).
 
 
+----------
+
+
 Third step
 -------------
 Wire the MAX485 board to the DMX plug (XLR 3pins) or socket.
@@ -62,11 +69,18 @@ Wire         				| Result
 Image is socket viewed from back. 
 
 
+----------
+
+
 Fourth step
 -------------
 Install softwares
 
 If you overclock the Pi this code will produce some bad packets. it is better to have a raspberry pi non overcloked. The default non overclocked config.txt with the addition of the line disable_pvt=1 added to it seems stable. 
 We will first edit ``/boot/config.txt`` to add ``disable_pvt=1`` option.
-`` sudo nano /boot/config.txt ``
-Then add or uncomment ``disable_pvt=1`` and save it.
+
+`` sudo nano /boot/config.txt `` then add or uncomment ``disable_pvt=1`` and save it.
+
+``` 
+sudo 
+``` 
